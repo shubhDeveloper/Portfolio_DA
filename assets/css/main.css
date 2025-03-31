@@ -1262,16 +1262,27 @@ section,
   padding: 15px;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 {
+/* .portfolio .portfolio-content .portfolio-info h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
   background-color: var(--accent-color);
+} */
+
+/* New Added for tool batch */
+
+.portfolio .portfolio-content .portfolio-info h4 {
+  font-size: 12px;
+  padding: 3px 5px;
+  font-weight: 400;
+  color: #ffffff;
+  display: inline-block;
+  background-color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info p {
+/* .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -1281,7 +1292,22 @@ section,
   font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
+} */
+
+/* New Added for card*/
+.portfolio .portfolio-content .portfolio-info p {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  font-weight: 450;
+  color: rgba(255, 255, 255, 0.8);
 }
+
+
 
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
